@@ -16,7 +16,7 @@ package cse360assign2;
 
 public class Calculator 
 {
-
+	
 	private int total;
 	
 	public Calculator () 
@@ -31,7 +31,7 @@ public class Calculator
 	 */
 	public int getTotal () 
 	{
-		return total;
+		return 0;
 	}
 	
 	/**
@@ -41,7 +41,7 @@ public class Calculator
 	 */
 	public void add (int value) 
 	{
-		total += value;
+		
 	}
 	
 	/**
@@ -51,7 +51,7 @@ public class Calculator
 	 */
 	public void subtract (int value) 
 	{
-		total -= value;
+		
 	}
 	
 	/**
@@ -61,7 +61,7 @@ public class Calculator
 	 */
 	public void multiply (int value) 
 	{
-		total *= value;
+		
 	}
 	
 	/**
@@ -71,15 +71,9 @@ public class Calculator
 	 */
 	public void divide (int value) 
 	{
-		if(value == 0)
-		{
-			total = 0;
-		}
-		else
-		{
-			total /= value;
-		}
+		
 	}
+	
 	/**
 	 * Prints a string of the calculator's history
 	 * 
