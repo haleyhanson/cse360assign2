@@ -35,7 +35,7 @@ public class Calculator
 	}
 	
 	/**
-	 * Adds an integer to the total variable
+	 * Adds an integer to the total 
 	 * 
 	 * @param value		the integer that is added to total
 	 */
